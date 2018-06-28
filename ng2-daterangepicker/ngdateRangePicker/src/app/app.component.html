@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<div style="text-align:center">
+  <h1>
+    Demo ng2-DateRangePicker..!!
+  </h1>
+</div>
+<div class="col-sm-12">
+  <div class="form-group">
+    <input type="text" name="daterangeInput" daterangepicker [options]="options" (selected)="selectedDate($event, daterange)"
+    />
+  </div>
+</div>
